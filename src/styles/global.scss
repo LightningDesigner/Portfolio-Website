@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --manifesto-yellow: #FFD700;
+  --manifesto-blue: #000033;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background-color: #090A0E;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+@font-face {
+  font-family: 'PP NeueBit';
+  src: url('/fonts/PPNeueBit-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
